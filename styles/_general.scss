@@ -1,0 +1,26 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $primaryBlack;
+  color: $primaryGray;
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: $primaryGray;
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,135 @@
+/* Header */
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5));
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.6fr 2fr;
+}
+
+nav {
+  overflow: hidden;
+
+  img.logo {
+    height: 15vh;
+    width: auto;
+    margin: 0 0 0 20%;
+  }
+
+  h2.brand-name {
+    font-family: "metal_lord", "Trebuchet MS", sans-serif;
+    font-size: 2.2em;
+    span {
+      color: $primaryBlue;
+    }
+  }
+
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 5fr;
+  grid-template-rows: 1fr;
+  ul {
+    // margin-top: 10px;
+    list-style-type: none;
+    text-align: right;
+    width: auto;
+    li {
+      display: inline;
+      margin: 0 20px 0 20px;
+      padding-bottom: 7px;
+      font-weight: bold;
+      &.dropdown {
+        overflow: hidden;
+      }
+      a {
+        transition: 0.4s;
+      }
+      // &:first-child {
+      //   border-bottom: 1px solid $primaryBlue;
+      // }
+      &:last-child {
+        margin-right: 70px;
+      }
+      &:hover {
+        a {
+          color: $primaryBlue;
+        }
+      }
+    }
+    &:last-child {
+      margin-right: 40px;
+    }
+  }
+}
+
+.hero-box {
+  @include flexCenter();
+  flex-direction: column;
+  // flex-wrap: wrap;
+  margin: -190px 0 0 0;
+}
+
+.action-btn {
+  background-color: $_2blue;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: 0.4s;
+  color: $_2gray;
+  &:hover {
+    background-color: #0483b6;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  display: block;
+}
+
+video {
+  transform: translateX(50%) translateY(50%);
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  /**/
+  z-index: -1;
+  /**/
+  height: auto;
+  width: auto;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.burger {
+  cursor: pointer;
+  display: none;
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  top: 2.8%;
+  right: 5%;
+}
+
+.burger div {
+  width: 100%;
+  height: 30%;
+  background-color: $primaryGray;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.cross .bar1 {
+  transform: rotate(-45deg) translate(-6px, 4px);
+}
+.cross .bar2 {
+  opacity: 0;
+}
+.cross .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}

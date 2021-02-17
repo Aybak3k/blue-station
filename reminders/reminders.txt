@@ -1,0 +1,14 @@
+IDEAS!!!
+    Glowing Text!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    Toggle Theme
+    Toggle Arabic
+
+BreakPoints
+    - PC/ Laptop
+    - Tablet
+    - Mob
+
+overflow:hidden
+    - to apply for an absolute .child
+        // position is a must for .parent
+        // anything but static
