@@ -1,0 +1,6 @@
+- image compression
+- for mobile
+    - slideshow
+    - with progress bar
+    - changing content
+- firefox video
