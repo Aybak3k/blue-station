@@ -1,66 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BlueStaion</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link
-      rel="icon"
-      href="https://github.com/NourAybak/public/blob/main/logos/BlueStaion-logo.png?raw=true"
-      type="image/png"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <img
-          src="https://github.com/NourAybak/public/blob/main/logos/BlueStaion-logo.png?raw=true"
-          alt="BlueStaion Logo"
-          class="logo"
-        />
-        <h2 class="brand-name">
-          <a href="#"><span>Blue</span>Staion</a>
-        </h2>
-        <ul class="nav-list">
-          <li><a href="#">Login</a></li>
-          <li>
-            <a href="http://oceanofgames.com/" target="_blank">Games</a>
-          </li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-        <div class="burger">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
-      </nav>
-      <div class="hero-box" style="text-align: center">
-        <h1>Where all gamers unite</h1>
-        <a href="#" class="action-btn">Let Me Fight!</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlueStaion</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="icon" href="https://github.com/NourAybak/public/blob/main/logos/BlueStaion-logo.png?raw=true"
+    type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="https://github.com/NourAybak/public/blob/main/logos/BlueStaion-logo.png?raw=true" alt="BlueStaion Logo"
+        class="logo" />
+      <h2 class="brand-name">
+        <a href="#"><span>Blue</span>Staion</a>
+      </h2>
+      <ul class="nav-list">
+        <li><a href="#">Login</a></li>
+        <li>
+          <a href="http://oceanofgames.com/" target="_blank">Games</a>
+        </li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <div class="burger">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
       </div>
-      <video
-        src="https://raw.githubusercontent.com/NourAybak/public/main/vid/BlueStaion-hero-bg-vid.webm"
-        muted
-        loop
-        autoplay
-        poster="https://github.com/NourAybak/public/blob/main/posters/BlueStaion-hero-bg-poster.jpg?raw=true"
-      ></video>
-    </header>
-    <!--  -->
-    <!-- <button id="floatingButton" onclick="showBorders()">
+    </nav>
+    <div class="hero-box" style="text-align: center">
+      <h1>Where all gamers unite</h1>
+      <a href="#" class="action-btn">Let Me Fight!</a>
+    </div>
+    <video onloadeddata="this.play();" autoplay playsinline loop muted poster="vid/hero-vid-poster.jpg">
+      <source src="vid/hero-vid.mp4" type="video/mp4" />
+      <source src="vid/hero-vid.webm" type="video/webm" />
+      Your browser does not support the video tag or the file format of this video.
+    </video>
+  </header>
+  <!--  -->
+  <!-- <button id="floatingButton" onclick="showBorders()">
       <i class="fa fa-plus my-float">Borders</i>
     </button> -->
-    <!--  -->
-    <script src="./js/app.js"></script>
-    <!--  -->
-    <div id="exp"></div>
-  </body>
+  <!--  -->
+  <script src="./js/app.js"></script>
+  <!--  -->
+  <div id="exp"></div>
+</body>
+
 </html>
 
 <!-- index structure
