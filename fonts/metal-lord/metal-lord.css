@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'metal_lord';
+    src: url('https://raw.githubusercontent.com/NourAybak/public/main/fonts/metal-lord/metal_lord.woff2') format('woff2'),
+         url(https://raw.githubusercontent.com/NourAybak/public/main/fonts/metal-lord/metal_lord.woff') format('woff'),
+         url('https://raw.githubusercontent.com/NourAybak/public/main/fonts/metal-lord/metal_lord.svg#metal_lordregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
