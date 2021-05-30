@@ -1,6 +1,6 @@
 ## ".woff2", "otf"
 
-> https://raw.githubusercontent.com/Aybak3k/public/main/fonts/metal-lord/metal_lord.woff2
+> https://raw.githubusercontent.com/Aybak3k/blue-station/main/fonts/metal-lord/metal_lord.woff2
 
 ```css
 @font-face {
