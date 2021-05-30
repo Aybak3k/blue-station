@@ -1,9 +1,0 @@
-1) ".woff2", "otf"
-2) https://raw.githubusercontent.com/NourAybak/public/main/fonts/metal-lord/metal_lord.woff2
-3) @font-face {
-  font-family: "metal-kun";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(metal_lord.woff2) format("woff2");
-}
